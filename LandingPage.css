@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 body{
     background-color: #FBFFF1;
@@ -56,14 +55,14 @@ body{
 }
 
 .CardStyleUp{
-	background-color: #5B8266;
+	background-color: #191716;
 	width: 50%;
 	border-radius: 20px 20px 0px 0px;
 	color: white;
 }
 
 .CardStyleDown{
-	background-color: #FF7F11;
+	background-color: #191716;
 	width: 50%;
 	border-radius: 0px 0px 20px 20px;
 	color: white;
@@ -80,18 +79,41 @@ h2,h3,h4{
 
 .SizeProfilPhoto{
 	width: 150px;
-	height: 150px;
+	height: 225px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .fs14{
 	font-size: 14px;
 }
+.pd-t1r{
+	padding-top: 1rem;
+}
+
+.navBar{
+	position: sticky;
+	top: 0;
+}
+
+/*Tamaño de imagen para el widget de instagram*/
 .ImageSize{
 	display: block;
     width: 300px;
     height: 300px;
 	border-radius: 25px 25px 25px 25px;
 }
+
+/*Tamaño de video para el widget de tiktok*/
+.VideoSize{
+	display: block;
+	border-color: #FBFFF1;
+	border-style: solid;
+	border-width: 1px;
+    width: 300px;
+    height: 600px;
+	border-radius: 25px 25px 25px 25px;
+}
+
 
 .ColSize{
 	width: 320px;

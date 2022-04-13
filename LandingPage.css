@@ -6,7 +6,7 @@ body{
 
 .w-full{
     width: 100%!important; 
-}
+} 
 
 .p-t3rem{
 	padding-top: 3rem;
@@ -23,7 +23,7 @@ body{
 #StyleLogoArea{
 	background-color: #3A0CA3;
 	color: white;
-	height: 800px;
+	height: 600px;
 }
 
 .video-player-1 {
@@ -100,7 +100,7 @@ a,p,h2,h3,h4{
 .VideoSize{
 	display: block;
     width: 300px;
-    height: 600px;
+    height: 536px;
 	border-radius: 25px 25px 25px 25px;
 }
 
